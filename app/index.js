@@ -78,8 +78,9 @@ export default function MainScreen() {
   };
 
   return (
-    <View style={styles.container}>
-      <LabeledInput
+      <View style={styles.container}>
+        <Text style={styles.title}>Currency Converter</Text>
+        <LabeledInput
         label="Base Currency"
         value={baseCurrency}
         onChangeText={setBaseCurrency}
@@ -126,6 +127,12 @@ export default function MainScreen() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 16 },
+  title: {
+    fontSize: 28,
+    fontWeight: "bold",
+    marginBottom: 20,
+    textAlign: "center",
+  },
   error: { color: "red", marginVertical: 12 },
   resultContainer: { marginTop: 20 },
   link: { color: "blue", fontSize: 16 },
