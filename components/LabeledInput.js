@@ -24,10 +24,12 @@ export default function LabeledInput({
 const styles = StyleSheet.create({
   container: { marginBottom: 12 },
   label: { fontSize: 14, marginBottom: 4 },
-  input: {
-    borderWidth: 1,
-    borderColor: "#ccc",
-    borderRadius: 4,
-    padding: 8,
-  },
+ input: {
+   borderWidth: 1,
+   borderColor: "#ccc",
+   borderRadius: 8,
+   padding: 12,
+   fontSize: 16,
+   backgroundColor: "#fafafa",
+ },
 });
