@@ -137,7 +137,12 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     textAlign: "center",
   },
-  error: { color: "red", marginVertical: 12 },
+  error: {
+    color: "red",
+    marginVertical: 12,
+    fontSize: 14,
+    fontWeight: "500",
+  },
   resultContainer: {
     marginTop: 20,
     padding: 15,
