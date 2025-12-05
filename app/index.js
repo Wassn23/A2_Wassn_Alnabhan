@@ -138,7 +138,12 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   error: { color: "red", marginVertical: 12 },
-  resultContainer: { marginTop: 20 },
+  resultContainer: {
+    marginTop: 20,
+    padding: 15,
+    backgroundColor: "#e8f5e9",
+    borderRadius: 8,
+  },
   resultText: {
     fontSize: 16,
     marginVertical: 4,
