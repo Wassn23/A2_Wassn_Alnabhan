@@ -105,7 +105,7 @@ export default function MainScreen() {
       {loading ? (
         <ActivityIndicator size="large" style={{ marginVertical: 10 }} />
       ) : (
-        <Button title="Convert" onPress={handleConvert} />
+        <Button title="Convert" onPress={handleConvert} disabled={loading} />
       )}
 
       {result && (
