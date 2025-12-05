@@ -1,3 +1,7 @@
+// about screen app info
+//Assignment 02
+// Wassn Al Nabhan
+// Student ID: 101468092
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { Link } from "expo-router";

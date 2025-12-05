@@ -1,4 +1,4 @@
-// MainScreen - Currency Converter
+//Currency Converter
 //Assignment 02
 // Wassn Al Nabhan
 // Student ID: 101468092
