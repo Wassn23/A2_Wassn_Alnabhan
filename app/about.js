@@ -37,10 +37,12 @@ title: {
   textAlign: "center",
   color: "#1976d2",
 },
-  label: {
-    fontSize: 16,
-    fontWeight: "600",
-  },
+ label: {
+   fontSize: 16,
+   fontWeight: "600",
+   marginTop: 16,
+   color: "#424242",
+ },
   value: {
     fontSize: 16,
     marginBottom: 8,
