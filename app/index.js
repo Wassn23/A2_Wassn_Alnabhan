@@ -109,12 +109,16 @@ export default function MainScreen() {
         <Button title="Convert" onPress={handleConvert} disabled={loading} />
       )}
 
-      {result && (
-        <View style={styles.resultContainer}>
-          <Text>Rate ({result.base} → {result.dest}): {result.rate.toFixed(4)}</Text>
-          <Text>Converted: {result.converted.toFixed(2)} {result.dest}</Text>
-        </View>
-      )}
+     {result && (
+       <View style={styles.resultContainer}>
+         <Text style={styles.resultText}>
+           Rate ({result.base} → {result.dest}): {result.rate.toFixed(4)}
+         </Text>
+         <Text style={styles.resultText}>
+           Converted: {result.converted.toFixed(2)} {result.dest}
+         </Text>
+       </View>
+     )}
 
       <View style={{ marginTop: 30 }}>
         <Link href="/about">
@@ -135,5 +139,9 @@ const styles = StyleSheet.create({
   },
   error: { color: "red", marginVertical: 12 },
   resultContainer: { marginTop: 20 },
+  resultText: {
+    fontSize: 16,
+    marginVertical: 4,
+  },
   link: { color: "blue", fontSize: 16 },
 });
