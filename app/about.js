@@ -30,11 +30,13 @@ export default function AboutScreen() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 16 },
-  title: {
-    fontSize: 24,
-    fontWeight: "bold",
-    marginBottom: 24,
-  },
+title: {
+  fontSize: 28,
+  fontWeight: "bold",
+  marginBottom: 24,
+  textAlign: "center",
+  color: "#1976d2",
+},
   label: {
     fontSize: 16,
     fontWeight: "600",
