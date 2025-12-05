@@ -4,7 +4,7 @@ import { Link } from "expo-router";
 import LabeledInput from "../components/LabeledInput";
 
 const API_URL = "https://api.freecurrencyapi.com/v1/latest";
-const API_KEY = "YOUR_API_KEY_HERE"; // replace later with real key
+const API_KEY = "fca_live_C8EZ1KLNNCf1LQTu6eGDkkieF83jbdtnCwOrRfEV";
 
 export default function MainScreen() {
   const [baseCurrency, setBaseCurrency] = useState("CAD");
