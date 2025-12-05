@@ -1,3 +1,8 @@
+// MainScreen - Currency Converter
+//Assignment 02
+// Wassn Al Nabhan
+// Student ID: 101468092
+
 import React, { useState } from "react";
 import { View, Text, Button, ActivityIndicator, StyleSheet } from "react-native";
 import { Link } from "expo-router";
