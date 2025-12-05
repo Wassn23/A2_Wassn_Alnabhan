@@ -23,7 +23,12 @@ export default function LabeledInput({
 
 const styles = StyleSheet.create({
   container: { marginBottom: 12 },
-  label: { fontSize: 14, marginBottom: 4 },
+  label: {
+    fontSize: 14,
+    marginBottom: 6,
+    fontWeight: "600",
+    color: "#424242",
+  },
  input: {
    borderWidth: 1,
    borderColor: "#ccc",
