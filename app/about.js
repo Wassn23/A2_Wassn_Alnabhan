@@ -43,10 +43,12 @@ title: {
    marginTop: 16,
    color: "#424242",
  },
-  value: {
-    fontSize: 16,
-    marginBottom: 8,
-  },
+value: {
+  fontSize: 16,
+  marginBottom: 8,
+  color: "#616161",
+  lineHeight: 24,
+},
   link: {
     color: "blue",
     fontSize: 16,
